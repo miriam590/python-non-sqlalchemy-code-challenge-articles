@@ -1,15 +1,14 @@
 # Welcome to the Phase 3 Code Challenge: Articles!
 
-This project is all about managing articles in a simple and efficient way using Python. Here, you'll find three main characters in our story: `Article`, `Author`, and `Magazine`. Together, they represent the relationships between articles, their authors, and the magazines they grace with their presence.
+This project is all about managing articles in a simple and efficient way using Python. Here, you'll find three main characters in our story: `Article`, `Author` and `Magazine`. Together, they represent the relationships between articles, their authors and the magazines.
 
-## Meet the Classes
 
 ### Article
 - Think of an `Article` as a piece of writing crafted by an author for a magazine.
 - **Attributes**:
-  - `author`: The talented individual behind the words, represented by an instance of the `Author` class.
+  - `author`:  The person who writes articles or, represented by an instance of the `Author` class.
   - `magazine`: The publication that showcases the article, represented by an instance of the `Magazine` class.
-  - `title`: The name of the article, which must be between 5 and 50 characters long and is immutable (once set, it stays that way!).
+  - `title`: The name of the article, which must be between 5 and 50 characters long and is immutable (once set, cannot be changed).
 
 ### Author
 - An `Author` is a creative soul who can write multiple articles for various magazines.
@@ -27,10 +26,7 @@ This project is all about managing articles in a simple and efficient way using 
   - `_authors`: A unique set of authors who have written for the magazine.
 
 ## How to Use This System
-To get started, simply create instances of `Author`, `Magazine`, and `Article` to establish their relationships. The system is designed to enforce rules, ensuring that all attributes are valid.
-
-## Testing the Waters
-We've included unit tests for each class to make sure everything works as it should. You can run the tests using `pytest` to verify the implementation.
+To get started, simply create instances of `Author`, `Magazine` and `Article` to establish their relationships. The system is designed to enforce rules, ensuring that all attributes are valid.
 
 ## Getting Started
 To install the necessary dependencies, run:
@@ -44,4 +40,4 @@ To check if everything is functioning correctly, use:
 pytest
 ```
 
-Feel free to dive in and explore the code! Happy coding!
+
